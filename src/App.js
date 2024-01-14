@@ -15,7 +15,7 @@ function App() {
     }
   }, []);
 
-  const loginHandler = (email, password) => {
+  const loginHandler = (email, password, collegeName) => {
     localStorage.setItem("isLoggedIn", "1");
     setIsLoggedIn(true);
   };
